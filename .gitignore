@@ -1,0 +1,48 @@
+# =============================================================================
+# .gitignore for Python projects
+# Git will ignore all files and folders listed below.
+# This prevents uploading unnecessary or sensitive files to GitHub.
+# =============================================================================
+
+# --- Personal data ---
+# Don't upload your expenses to GitHub (private data!)
+expenses.json
+
+# --- Python virtual environments ---
+# A virtual environment contains locally installed libraries.
+# It should never be committed (it's large and system-dependent).
+venv/
+env/
+.venv/
+.env/
+ENV/
+
+# --- Python compiled files ---
+# Python creates these automatically to speed up execution.
+# They are not needed in a repository.
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyc
+
+# --- IDE configuration files ---
+# Every developer uses their own editor; these files are personal.
+.vscode/
+.idea/
+*.sublime-project
+*.sublime-workspace
+
+# --- Operating system files ---
+# Hidden files created automatically by the OS.
+.DS_Store          # macOS
+Thumbs.db          # Windows
+desktop.ini        # Windows
+
+# --- Log files ---
+*.log
+logs/
+
+# --- Temporary files ---
+*.tmp
+*.temp
+*.bak
