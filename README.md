@@ -1,6 +1,6 @@
 # Expense Tracker
 
-A simple Python program to keep track of your personal expenses, designed for absolute beginners.
+A simple Python Program to keep track of your personal expenses, designed for absolute beginners.
 
 ## Features
 
